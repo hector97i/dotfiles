@@ -13,7 +13,6 @@ set laststatus=2
 
 call plug#begin('~/.vim/plugged')
 " Plugins
-Plug 
 
 " Themes
 Plug 'morhetz/gruvbox'
@@ -28,6 +27,7 @@ call plug#end()
 
 colorscheme darcula
 let NERDTreeQuitOnOpen=1
+let NERDTreeShowHidden=1
 
 let mapleader=" "
 nmap <Leader>s <Plug>(easymotion-s2)
